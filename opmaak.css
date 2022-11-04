@@ -21,3 +21,6 @@ ul {
   li a:hover {
     background-color: rgb(224, 146, 247);
   }
+  body {
+    background-color: lightblue;
+  }
