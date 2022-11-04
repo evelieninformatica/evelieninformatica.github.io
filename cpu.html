@@ -1,16 +1,44 @@
 <!DOCTYPE html> <!--dit is de homepage van mijn site-->
 <html> <!--dit is het html-element-->
+<style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: #111;
+    }
+    </style>
+    </head>
+    <body>
+        <ul>
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="drielagenmodel.html">drielagenmodel</a></li>
+            <li><a href= "cpu.html"> CPU</a> 
+        </ul>
     <head>
         <title>cpu</title>
         <meta charset="utf-8">
     </head>
         <body style="background-color: rgb(192, 249, 249);"> <!--hier wordt de achtergrondkleur ingesteld-->
         Hier is uitleg over CPU
-        <ul> <!--het menu-->
-            <li><a href="index.html">homepage</a></li>
-            <li><a href="drielagenmodel.html">uitleg drielagenmodel</a></li>
-            <li><a href= "cpu.html"> uitleg CPU</a>
-        </ul> <!--Dit zijn links naar de kopjes, zo hoef je niet te scrollen naar het kopje waar je meer over wilt weten-->
+     <!--Dit zijn links naar de kopjes, zo hoef je niet te scrollen naar het kopje waar je meer over wilt weten-->
         <p><a href="#Multicoreprocessor">Multicoreprocessor</a></p>
         <p><a href="#taken van het CPU">Taken van het CPU</a></p>
         <p><a href="#snelheid van een processor">Snelheid van een processor</a></p>
