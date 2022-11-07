@@ -50,9 +50,9 @@
     float: left;
     height: 30px;
     width: 150px;
-    background: #34ca39;
+    background: #aaebed;
 }
-.top-level-menu > li:hover { background: #b507ea; }
+.top-level-menu > li:hover { background: #95e1e4; }
 
 .top-level-menu li:hover > ul
 {
