@@ -33,9 +33,9 @@
 {
     position: relative;
     height: 30px;
-    background: #e9569d;
+    background: #aaebed;
 }
-.second-level-menu > li:hover { background: #b7de37; }
+.second-level-menu > li:hover { background: #95e1e4; }
 
 .top-level-menu
 {
